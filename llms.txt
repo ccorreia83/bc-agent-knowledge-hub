@@ -1,0 +1,8 @@
+# Business Central Agent Knowledge Hub
+Start: /AGENTS.md
+Roles: /routing/
+Domains: /domains/
+Sources: /sources/
+Policies: /policies/
+Machine-readable catalog: /sources.yaml
+Rule: this repository routes investigations; the final source or live environment supplies evidence.

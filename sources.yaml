@@ -1,0 +1,106 @@
+schema_version: 1
+repository: bc-agent-knowledge-hub
+sources:
+- id: bc-learn-functional
+  name: Microsoft Learn - Business Central
+  url: https://learn.microsoft.com/dynamics365/business-central/
+  authority: official-documentation
+  roles:
+  - functional
+  - support-lead
+  - solution-estimation
+- id: bc-docs-functional
+  name: Business Central functional docs source
+  url: https://github.com/MicrosoftDocs/dynamics365smb-docs
+  authority: official-documentation-source
+  roles:
+  - functional
+- id: bc-devitpro
+  name: Business Central Developer and IT Pro
+  url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/
+  authority: official-documentation
+  roles:
+  - technical
+  - tsi-infrastructure
+  - automation-agent-designer
+- id: bcapps
+  name: BCApps
+  url: https://github.com/microsoft/BCApps
+  authority: official-source
+  roles:
+  - technical
+- id: bc-observatory
+  name: BC Observatory
+  url: https://waldo1001.github.io/waldo.BCObservatory/mcp/
+  authority: trusted-specialist-discovery
+  roles:
+  - functional
+  - technical
+  - tsi-infrastructure
+  - support-lead
+  - solution-estimation
+- id: bc-code-atlas
+  name: BC Code Atlas
+  url: https://github.com/StefanMaron/bc-code-atlas
+  authority: specialist-code-intelligence
+  roles:
+  - technical
+- id: al-guidelines
+  name: AL Guidelines
+  url: https://github.com/microsoft/alguidelines
+  authority: official-guidance
+  roles:
+  - technical
+- id: al-go
+  name: AL-Go
+  url: https://github.com/microsoft/AL-Go
+  authority: official-source
+  roles:
+  - technical
+  - tsi-infrastructure
+- id: bccontainerhelper
+  name: BcContainerHelper
+  url: https://github.com/microsoft/navcontainerhelper
+  authority: official-source
+  roles:
+  - technical
+  - tsi-infrastructure
+- id: copilot-studio
+  name: Microsoft Learn - Copilot Studio
+  url: https://learn.microsoft.com/microsoft-copilot-studio/
+  authority: official-documentation
+  roles:
+  - automation-agent-designer
+- id: power-apps
+  name: Microsoft Learn - Power Apps and Dataverse
+  url: https://learn.microsoft.com/power-apps/
+  authority: official-documentation
+  roles:
+  - automation-agent-designer
+  - technical
+- id: entra
+  name: Microsoft Entra docs
+  url: https://github.com/MicrosoftDocs/entra-docs
+  authority: official-documentation-source
+  roles:
+  - tsi-infrastructure
+  - technical
+  - automation-agent-designer
+- id: azure
+  name: Azure docs
+  url: https://github.com/MicrosoftDocs/azure-docs
+  authority: official-documentation-source
+  roles:
+  - tsi-infrastructure
+- id: windows-server
+  name: Windows Server docs
+  url: https://github.com/MicrosoftDocs/windowsserverdocs
+  authority: official-documentation-source
+  roles:
+  - tsi-infrastructure
+- id: exchange
+  name: Microsoft Learn - Exchange
+  url: https://learn.microsoft.com/exchange/
+  authority: official-documentation
+  roles:
+  - tsi-infrastructure

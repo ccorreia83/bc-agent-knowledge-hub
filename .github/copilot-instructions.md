@@ -1,0 +1,1 @@
+Use `AGENTS.md` as the controlling routing policy. Apply only the role and domain files relevant to the request. The Hub is a catalog, not product evidence. Follow and cite the final authoritative source. Label conclusions as DOCUMENTED, IMPLEMENTED, OBSERVED, INTERNAL, or INFERRED.
